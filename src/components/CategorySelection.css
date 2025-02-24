@@ -3,20 +3,42 @@
 .category-selection{
     width: 360px;
     height: 660px;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(167, 154, 163);
     text-align: center;
 }
+.category-selection > img{
+    width: 350px;
+    height: 200px;
+}
 .category-selection > h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-weight: 20px;
     text-align: center;
+    padding: 10px;
 }
 .category-selection > h2{
-
+    padding-bottom: 15px;
+}
+.category-selection > p{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .category-selection > button{
     display: block;
-    margin-left: 130px;
-    width: 150px;
+    margin-left: 8%;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(122, 204, 207);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.category-selection > button:hover{
+    background-color: rgb(90, 136, 138);
+    color: rgb(255, 255, 255);
 }
