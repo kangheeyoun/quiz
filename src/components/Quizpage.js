@@ -1,4 +1,6 @@
 import { useState } from "react";
+import '../components/Quizpage.css';
+
 
 const Quizpage = ({category,quizData,onFinished}) => {
     const [currentIdx, setCurrentIdx]= useState(0);

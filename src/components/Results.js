@@ -1,3 +1,4 @@
+import '../components/Results.css';
 
 const Results = ({score,onRestart}) => {
     return (
